@@ -1,0 +1,17 @@
+#Creating NodePort service for PareshTom
+apiVersion: v1
+kind: Service
+metadata:
+ name: pareshtom-svc
+ labels:
+  app: paresh-tom
+spec:
+ selector:
+  app: paresh-tom
+  tier: frontend
+  env: prod
+ type: NodePort
+ ports:
+ - nodePort: 31000
+   port: 8080
+   targetPort: 8080
