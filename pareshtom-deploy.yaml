@@ -22,6 +22,6 @@ spec:
   spec:
    containers:
    - name: tomcat-container
-     image: docker.io/pareshkaps/learning_devops:tomcat
+     image: docker.io/pareshkaps/learning_devops:k8tomcat
      ports:
      - containerPort: 8080
