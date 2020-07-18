@@ -1,6 +1,6 @@
 <html>
 <body>
-<img src="IMG_1224.jpg" alt="Paresh Signature" width="300" height="300">
+<img src="IMG_1224_1.jpg" alt="Paresh Signature" width="300" height="300">
 <h2>Hello Paresh!!</h2>
 <h2>You've successfully customized the WAR file.</h2>
 <h2>Then you've created Docker image file by deploying this WAR on Tomcat.</h2>
