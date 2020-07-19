@@ -23,7 +23,7 @@ spec:
    containers:
    - name: tomcat-container
      image: docker.io/pareshkaps/learning_devops
-     imagePullpolicy: Always
+     imagePullPolicy: Always
      ports:
      - containerPort: 8080
 ---
